@@ -1,0 +1,42 @@
+h1{
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+  width: 200px;
+}
+
+ul li {
+  background-color: white;
+  margin: 5px 0;
+  padding: 5px 5px;
+}
+
+ul li:hover{
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.meal-container{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.meal-type{
+  width: 18%;
+  background-color: #c1c1c1;
+  padding: 5px;
+  margin: 5px;
+}
